@@ -1,16 +1,13 @@
 T = int(input())
-for i in range(0,T) :
-    sum = 0
+for i in range(T) :
+    temp = 0
     b = input().split()
-    max = 0
+    maxs = 0
     tempA = []
-    tempB = []
     for a in b:
         intA = int(a)
         tempA.append(intA)
-    print(tempA)
-    tempB = list(set(tempA))
-    print(tempB)
-    max = tempB[len(tempB)-1]
-    print(f'#{i+1} {max}')
-
+    for a in tempA :
+        if maxs < a:
+            maxs = a
+    print(f'#{i+1} {maxs}')
