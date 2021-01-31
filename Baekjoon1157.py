@@ -1,13 +1,20 @@
 N = input()
-
+an =''
+res = {}
 for i in N :
     f = ord(i)
     if(f >= 97) : 
         f -= 32
+    an += chr(f)
+ann = set(an)
+maxs = 0 
+for i in ann :
+    temp = an.count(i)
+    an = an.replace(i,'')
+    res[temp] = res.get(temp,[]) + [i]
+    if maxs < temp:
+        maxs = temp
 
-max = 0
-answer = ''
-for g in alpa_dic :
-    if(max < alpa_dic.get(g)):
-        max = alpa_dic.get(g)
-print(alpa_dic)
+if len(res[maxs])>1:
+    print('?')
+else : print(*res[maxs])
