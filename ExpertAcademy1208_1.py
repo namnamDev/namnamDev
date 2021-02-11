@@ -1,28 +1,5 @@
-import sys
-sys.stdin = open("ExpertAcademy1208.txt")
+arr = [1,2,3,4,5]
 
+arr[0] , arr[1],arr[2],arr[3],arr[4] = +1,+1,+1,+1,+2
 
-for i in range(1, 11):
-    d = int(input())
-    a = list(map(int, input().split()))
-    r = [0] * 100
-    c = 0
-    for g in a:
-        r[g - 1] += 1
-    for j in range(d):
-        while r[0] == 0:
-            r = r[1:]
-        while r[-1] == 0:
-            r = r[:-1]
-        r[-1] -= 1
-        r[-2] += 1
-        r[0] -= 1
-        r[1] += 1
-
-    while r[0] == 0:
-        r = r[1:]
-    while r[-1] == 0:
-        r = r[:-1]
-    for f in r:
-        c += 1
-    print("#{} {}".format(i, c - 1))
+print(arr)

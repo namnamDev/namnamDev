@@ -1,22 +1,28 @@
 import sys
-T = int(input())
-Tlist = [None] * T
+sys.stdin = open("ExpertAcademy1208.txt")
 
-for i in range(T):
-    score = [0] *101
-    miniT = int(input())
-    line = input().split()
-    maxs = 0
-    for g in line:
-        score[int(g)] += 1
-    print('-----------')
-    print(score)
 
-    for f in score:
-        if f >= maxs:
-            maxs = f
-    Tlist[i] = score.index[maxs]
-    
+for i in range(1, 11):
+    d = int(input())
+    a = list(map(int, input().split()))
+    r = [0] * 100
+    c = 0
+    for g in a:
+        r[g - 1] += 1
+    for j in range(d):
+        while r[0] == 0:
+            r = r[1:]
+        while r[-1] == 0:
+            r = r[:-1]
+        r[-1] -= 1
+        r[-2] += 1
+        r[0] -= 1
+        r[1] += 1
 
-for i in range(T) :
-    print(f'#{i+1} {Tlist[i]}')
+    while r[0] == 0:
+        r = r[1:]
+    while r[-1] == 0:
+        r = r[:-1]
+    for f in r:
+        c += 1
+    print("#{} {}".format(i, c - 1))

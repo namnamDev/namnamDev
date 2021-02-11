@@ -1,30 +1,28 @@
 import sys
 sys.stdin = open("ExpertAcademy1208.txt")
 
-#
-# def my_max(arr):
-#     ans = 0
-#     for g in arr:
-#         if ans < g:
-#             ans = g
-#     return ans
-
-
-def my_mix(arr):
-    ans_min, ans_max = arr[0], 0
-    for j in arr:
-        if ans_min > j:
-            ans_min = j
-        elif ans_max < j:
-            ans_max = j
-    return ans_max, ans_min
-
 
 for i in range(1, 11):
-    dump = int(input())
-    li = list(map(int, input().split()))
-    for h in range(dump):
-        temp_max, temp_min = my_mix(li)
-    print(temp_max, temp_min)
+    d = int(input())
+    a = list(map(int, input().split()))
+    r = [0] * 100
+    c = 0
+    for g in a:
+        r[g - 1] += 1
+    for j in range(d):
+        while r[0] == 0:
+            r = r[1:]
+        while r[-1] == 0:
+            r = r[:-1]
+        r[-1] -= 1
+        r[-2] += 1
+        r[0] -= 1
+        r[1] += 1
 
-
+    while r[0] == 0:
+        r = r[1:]
+    while r[-1] == 0:
+        r = r[:-1]
+    for f in r:
+        c += 1
+    print("#{} {}".format(i, c - 1))

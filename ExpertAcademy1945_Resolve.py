@@ -1,12 +1,19 @@
-T = int(input())
-def divdiv(a,b) :
-    cnt =0
-    while a%b ==0 :
-        a = a//b
-        cnt+=1
+import sys
+sys.stdin =open("ExpertAcademy1945_Resolve.txt")
+def counting(N, nums) :
+    cnt = 0
+    t = N
+    while not t % nums:
+        t = t//nums
+        cnt += 1
     return cnt
 
-for i in range(1,T+1):
-    num = int(input())
-    answer =f'{divdiv(num,2)} {divdiv(num,3)} {divdiv(num,5)} {divdiv(num,7)} {divdiv(num,11)}'
-    print(f'#{i} {answer}')
+
+T = int(input())
+for tc in range(1, T+1):
+    N = int(input())
+    an = ""
+    li = [2, 3, 5, 7, 11]
+    for i in li:
+        an += str(counting(N, i)) + " "
+    print("#{} {}".format(tc, an))
