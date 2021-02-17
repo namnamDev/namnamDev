@@ -10,4 +10,4 @@ for i in range(1,T+1) :
         cc = '='
     if aa > bb :
         cc = '>'
-    print(f'#{i} {cc}')
+    print('#{} {}'.format(i, cc))
