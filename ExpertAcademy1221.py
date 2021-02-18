@@ -16,8 +16,6 @@ for tc in range(1, T+1):
     for ff in range(10):
         for gg in range(countli[ff]):
             ans += [nums[ff]]
-    # for f in range(1, 10):
-    #     countli[f] += countli[f-1]
     ans = " ".join(ans)
     print(tcc)
     print(ans)
