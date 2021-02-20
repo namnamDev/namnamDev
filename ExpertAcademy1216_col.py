@@ -1,61 +1,42 @@
 import sys
 
 sys.stdin = open("ExpertAcademy1216.txt")
-N = 100
-for tc in range(1, 11):
-    T = int(input())
-    arr = [0] * N
+def My_find(M):
+    # 전체크기가 N이다.
     for i in range(N):
-        arr[i] = list(input())
-    maxCnt = 0
-    gase = ""
-    for c in range(N):
-        for f in range(N-1):
-            temp = [arr[c][f], arr[c][f + 1]]
-            # print(temp)
-            tempF = f+1
-            cnt = 0
-            while tempF < N-1:
-                for g in range(len(temp) // 2):
-                    if temp[g] != temp[-g - 1]:
-                        if tempF < N-1:
-                            tempF += 1
-                            temp += [arr[c][tempF]]
-                            # print(temp)
-                        break
+        # 부분 문자열의 시작점
+        for j in range(N-M+1):
+            # 스왑을 이용한 회문검사
 
-                    if g == len(temp) // 2-1:
-                        if maxCnt < len(temp):
-                            maxCnt = len(temp)
-                            gase = "ga"
-                        if tempF < N-1:
-                            tempF += 1
-                            temp += [arr[c][tempF]]
-                            # print(temp)
-                # print(temp)
-    # print("-------"+str(tc)+"-----")
-    for cc in range(N):
-        for ff in range(N-1):
-            temp = [arr[ff][cc], arr[ff+1][cc]]
-            # print(temp)
-            tempC = ff+1
-            cnt = 0
-            while tempC < N-1:
-                for g in range(len(temp) // 2):
-                    if temp[g] != temp[-g - 1]:
-                        if tempC < N-1:
-                            tempC += 1
-                            temp += [arr[tempC][cc]]
-                            # print(temp)
-                        break
+            # 가로 검사
+            for k in range(M//2):
+                #앞뒤검사
+                if words[i][j+k] != words[i][j+M-1-k]:
+                    break
+                #회문이다
+                elif k == M//2 -1:
+                    return M
 
-                    if g == len(temp) // 2-1:
-                        if maxCnt < len(temp):
-                            maxCnt = len(temp)
-                            gase = "se"
-                        if tempC < N-1:
-                            tempC += 1
-                            temp += [arr[tempC][cc]]
-                            # print(temp)
-                # print(temp)
-    print("#{} {}".format(T, maxCnt))
+            # 세로 검사
+            for k in range(M//2):
+                if words[j+k][i] != words[j+M-1-k][i]:
+                    break
+                elif k == M//2 -1:
+                    return M
+    return 0
+
+for tc in range(10):
+    tc_num = int(input())
+
+    N = 100
+
+    words = [input() for i in range(N)]
+    # zwords = list(zip(*words))
+    #가장 길이가 긴 회문검사를 한다.
+    for i in range(N, 0, -1):
+        ans = My_find(i)
+
+        if ans != 0:
+            break
+
+    print('#{} {}'.format(tc_num, ans))
