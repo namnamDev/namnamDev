@@ -6,6 +6,8 @@ def Palin(words):
         for k in range(100):
             for i in range(100 - l + 1):
                 if words[k][i:i + l] == words[k][i + l - 1:i - 1:-1]:
+                    print(words[k][i:i + l])
+                    print(words[k][i + l - 1:i - 1:-1])
                     return l
 
 
