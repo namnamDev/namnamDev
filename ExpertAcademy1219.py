@@ -5,7 +5,6 @@ sys.stdin = open("ExpertAcademy1219.txt")
 
 def travel(N):
     if arrDict.get(N):
-        # print(N, arrDict.get(N))
         templi = arrDict.get(N)
         for i in templi:
             if visited[99]:
@@ -15,7 +14,6 @@ def travel(N):
                 travel(i)
 
 
-stack = []
 SIZE = 100
 for tc in range(1, 11):
     arrDict = {}
@@ -24,10 +22,7 @@ for tc in range(1, 11):
     li = list(map(int, input().split()))
     for i in range(0, len(li), 2):
         li[i], li[i + 1]
-        # print(li[i], li[i + 1])
         arrDict[li[i]] = arrDict.get(li[i], []) + [li[i + 1]]
-        # print(arrDict[li[i]])
-    # print(arrDict)
     an = 0
     travel(0)
     if visited[99] == 1:
