@@ -1,21 +1,26 @@
+import sys
+
+sys.stdin = open("ExpertAcademy1859.txt")
+
 T = int(input())
-for f in range(1,T+1) :
-    x = int(input())
-    lists = input().split()
-    lists.append('0')
-    lists = [int (i) for i in lists]
-    sample = []
-    print(lists)
-    max = 0
-    maxwh = 0
-    start = 0
-    for i in range(x):
-        if max < lists[i]:
-            max = lists[i]
-            maxwh = i+1
-            start = i
-    print(f'이게답인가 {lists[start : maxwh]}')
-    sample.append(lists[start : maxwh])
-        
-    
-    print(f'#{f}')
+for tc in range(1, T + 1):
+    N = int(input())
+    arr = list(map(int, input().split()))
+    maxIdx = 0
+    dpli = [0] * N
+    i = 0
+    while i < N:
+        maxN = arr[i]
+        maxIdx = i
+        for g in range(i + 1, N):
+            if maxN < arr[g]:
+                maxN = arr[g]
+                maxIdx = i
+        dpli[i] = maxN - arr[i]
+
+        if maxIdx != i:
+            i = maxIdx
+        else:
+            i += 1
+
+    print("#{} {}".format(tc, sum(dpli)))

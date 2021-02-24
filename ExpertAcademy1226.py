@@ -34,7 +34,7 @@ for _ in range(1, 11):
                     stack += [[willx, willy]]
             if len(stack) > 0:
                 now = stack.pop()
-                # print(now, li[now[0]][now[1]])
+                print(now, li[now[0]][now[1]])
                 if li[now[0]][now[1]] == 3:
                     an = 1
                     break
