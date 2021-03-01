@@ -52,7 +52,7 @@ for tc in range(1, int(input()) + 1):
         action[i] = list(map(int, input().split()))
 
     for i in action:
-        x, y, color = map(int, i)
+        y, x, color = map(int, i)
         x -= 1
         y -= 1
         board[x][y] = color
@@ -64,7 +64,7 @@ for tc in range(1, int(input()) + 1):
                 temp[g] = True  # 탐색후 해당 dir번호를 temp에 넣고
         print(temp)
         for g in range(8):
-            if temp[g]: # 바
+            if temp[g]:  # 바
                 doreverse(board)
     one = 0
     two = 0

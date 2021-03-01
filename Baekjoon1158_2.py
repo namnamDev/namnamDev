@@ -6,16 +6,26 @@ temp = list(li)
 stack = []
 while len(li) > 0:
     Ktemp = K
-    print(len(temp), Ktemp)
     if start + Ktemp > len(temp):
-        print("hesr")
         Ktemp %= len(li)
+        if not Ktemp:
+            Ktemp += len(li)
         temp += list(li)
     start += Ktemp
-    print(temp, start)
-    # print(temp[start])
-    stack += [li.pop(li.index(temp[start]) - 1)]
-    print(stack)
+    stack += [li.pop(li.index(temp[start - 1]))]
+
     if len(li) == 0:
         break
-print(start)
+
+print("<", end="")
+for i in range(N):
+    if i != N - 1:
+        print("{},".format(stack[i]), end=" ")
+    else:
+        print("{}>".format(stack[i]))
+# an = "<"
+# for i in range(N - 1):
+#     an += str(stack[i]) + ", "
+#
+# an += str(stack[N - 1]) + ">"
+# print(an)

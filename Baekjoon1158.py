@@ -1,20 +1,21 @@
-N = input()
-an =''
-res = {}
-for i in N :
-    f = ord(i)
-    if(f >= 97) : 
-        f -= 32
-    an += chr(f)
-ann = set(an)
-maxs = 0 
-for i in ann :
-    temp = an.count(i)
-    an = an.replace(i,'')
-    res[temp] = res.get(temp,[]) + [i]
-    if maxs < temp:
-        maxs = temp
-
-if len(res[maxs])>1:
-    print('?')
-else : print(*res[maxs])
+N, K = map(int, input().split())
+li = list(range(1, N + 1))
+an = ""
+start = 0
+temp = list(li)
+stack = []
+while len(li) > 0:
+    Ktemp = K
+    print(len(temp), Ktemp)
+    if start + Ktemp > len(temp):
+        print("hesr")
+        Ktemp %= len(li)
+        temp += list(li)
+    start += Ktemp
+    print(temp, start)
+    # print(temp[start])
+    stack += [li.pop(li.index(temp[start]) - 1)]
+    print(stack)
+    if len(li) == 0:
+        break
+print(start)

@@ -9,13 +9,9 @@ diry = [0, 0, 1, -1, 1, -1, -1, 1]
 
 
 def findreverse(board):
-    print("-----find-----")
     wx = x + dirx[g]
     wy = y + diry[g]
     while 0 <= wx < N and 0 <= wy < N:
-        print(wx, wy)
-        for ff in board:
-            print(ff)
         if board[wx][wy] == color:
             return True
         else:
@@ -24,14 +20,10 @@ def findreverse(board):
 
 
 def doreverse(board):
-    print("------do-----")
     wx = x + dirx[g]
     wy = y + diry[g]
     while 0 <= wx < N and 0 <= wy < N:
-        for ff in board:
-            print(ff)
         if board[wx][wy] != color and board[wx][wy] != 0:
-            print(wx, wy)
             board[wx][wy] = color
             wx += dirx[g]
             wy += diry[g]
@@ -46,24 +38,16 @@ for tc in range(1, int(input()) + 1):
     board[N // 2][N // 2] = 2
     board[N // 2 - 1][N // 2] = 1
     board[N // 2][N // 2 - 1] = 1
-    pprint(board)
     action = [0] * M
     for i in range(M):
-        action[i] = list(map(int, input().split()))
-
-    for i in action:
-        x, y, color = map(int, i)
+        x, y, color = map(int, input().split())
         x -= 1
         y -= 1
         board[x][y] = color
-        print(board)
-        print(x, y)
         temp = [False] * 8
         for g in range(8):
             if findreverse(board):
-                print("----", g, "----")
                 temp[g] = True
-        print(temp)
         for g in range(8):
             if temp[g]:
                 doreverse(board)
@@ -75,6 +59,4 @@ for tc in range(1, int(input()) + 1):
                 one += 1
             elif g == 2:
                 two += 1
-    pprint(board)
     print("#{} {} {}".format(tc, one, two))
-    # pprint(action)

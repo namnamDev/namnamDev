@@ -9,16 +9,19 @@ diry = [0, 0, 1, -1, 1, -1, -1, 1]
 
 
 def findreverse(board):
-    # print("-----find-----")
     wx = x + dirx[g]
     wy = y + diry[g]
+    # print("-----find-----", dirx[g], diry[g])
+    # for ff in board:
+    #     print(ff)
     while 0 <= wx < N and 0 <= wy < N:
-        # pprint(board)
         if board[wx][wy] == color:
+            # print(color)
             return True
         else:
             wx += dirx[g]
             wy += diry[g]
+    return False
 
 
 def doreverse(board):
@@ -26,7 +29,8 @@ def doreverse(board):
     wx = x + dirx[g]
     wy = y + diry[g]
     while 0 <= wx < N and 0 <= wy < N:
-        pprint(board)
+        for ff in board:
+            print(ff)
         if board[wx][wy] != color and board[wx][wy] != 0:
             print(wx, wy)
             board[wx][wy] = color
@@ -43,39 +47,30 @@ for tc in range(1, int(input()) + 1):
     board[N // 2][N // 2] = 2
     board[N // 2 - 1][N // 2] = 1
     board[N // 2][N // 2 - 1] = 1
-
     pprint(board)
     action = [0] * M
     for i in range(M):
-        action[i] = list(map(int, input().split()))
-
-    for i in action:
-        x, y, color = map(int, i)
-        x -= 1
+        y, x, color = list(map(int, input().split()))
         y -= 1
+        x -= 1
         board[x][y] = color
-        print(board)
+        print(x, y)
+        temp = [False] * 8
         for g in range(8):
-            temp = [False] * 8
-            if findreverse(board):
+            if findreverse(board):  # 돌이 바뀔수 있는 방향을 우선 탐색하는 함수
                 print("----", g, "----")
-                temp[g] = True
-
+                temp[g] = True  # 탐색후 해당 dir번호를 temp에 넣고
+        print(temp)
         for g in range(8):
-            if temp[g]:
-                # print("----", g, "----")
+            if temp[g]:  # 바
                 doreverse(board)
-            # wx = x + dirx[g]
-            # wy = y + diry[f]
-            # if 0<=wx<N and 0<=wy<N:
-            #     if board[wx][wy] ==
     one = 0
     two = 0
-    for i in board:
-        for g in i:
-            if g == 1:
+    for ii in board:
+        for gg in ii:
+            if gg == 1:
                 one += 1
-            elif g == 2:
+            elif gg == 2:
                 two += 1
     pprint(board)
     print("#{} {} {}".format(tc, one, two))

@@ -9,11 +9,13 @@ for tc in range(int(input())):
     used = [0] * len(st)
     g = 0
     cnt = 0
+    maxs = 0
 
     while g < len(st) - 4:
         i = g
         temp = 0
         if st[g] == "c":
+            mt = 0
             while i < len(st):
                 if st[i] == li[temp] and used[i] == 0:
                     used[i] = 1
@@ -23,8 +25,12 @@ for tc in range(int(input())):
                 if temp == 5:
                     temp = 0
                     cnt += 1
-                    break
-        print(used, g, i, cnt)
+                    mt += 1
+
+            print(maxs, mt)
+            if maxs < mt:
+                maxs = mt
+        print(used, g, i, cnt, maxs)
         print(st)
         if 0 in used:
             g = used.index(0)

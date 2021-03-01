@@ -8,21 +8,31 @@ for tc in range(1, T + 1):
     arr = [0] * N
     for i in range(N):
         arr[i] = list(map(int, input().split()))
-    visited = [0] * N
+    visited = [0] * 201
     cnt = 0
-
-    while 0 in visited:
-        start = visited.index(0)  # 방문 안한곳을 시작점으로 잡고
-        visited[start] = 1  # 시작점은 방문했으니 1.
-        for g in range(start + 1, N):  # 시작점부터 끝까지 방문점 비교
-            print(start, g, arr[start], arr[g], cnt)
-            if arr[start][0] < arr[g][0] and arr[start][1] < arr[g][1] and arr[start][1] < arr[g][0] and visited[
-                g] == 0:  # 시작점과 비교점의 출발점, 도착점, 도착점 출발점, (=경로가 겹치는지 )방문여부 각각 비교
-                start = g  # 조건에 부합하면 시작점을 g로 잡아주고
-                visited[g] = 1  # g를 시작점으로 함.
-        cnt += 1
-    answer = cnt
-    print("#{} {}".format(tc, answer))
+    for i in arr:
+        a1, a2 = i[0], i[1]
+        a1 //= 2
+        a2 //= 2
+        # if a1 % 2:
+        #     a1 = a1 // 2 - 1
+        # else:
+        #     a1 //= 2
+        # if a2 % 2:
+        #     a2 = a2 // 2 - 1
+        # else:
+        #     a2 //= 2
+        print(a1, a2)
+        if a1 < a2:
+            for g in range(a1, a2 + 1):
+                # print(g, end=" ")
+                visited[g] += 1
+        else:
+            for g in range(a1, a2 - 1, -1):
+                # print(g, end=" ")
+                visited[g] += 1
+    # print(visited)
+    print("#{} {}".format(tc, max(visited)))
 
     # 꼭 윗라인 아랫라인 구분을 해줘야 하는가?
     # 어디서 오류가 생겼는가? ㅜㅜ

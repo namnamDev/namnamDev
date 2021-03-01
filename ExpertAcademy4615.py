@@ -1,49 +1,82 @@
 import sys
 from pprint import pprint
+from pprint import pprint
 
-sys.stdin = open("ExpertAcademy5643.txt")
+sys.stdin = open("ExpertAcademy4615.txt")
 
-
-def d1(N):
-    v[N] += 1
-    tv[N] += 1
-    if r.get(N):
-        for f in r.get(N):
-            if tv[f] == 0:
-                d1(f)
+dirx = [1, -1, 0, 0, 1, 1, -1, -1]
+diry = [0, 0, 1, -1, 1, -1, -1, 1]
 
 
-def d2(N):
-    v[N] += 1
-    tv2[N] += 1
-    if r2.get(N):
-        for f in r2.get(N):
-            if tv2[f] == 0:
-                d2(f)
+def findreverse(board):
+    # print("-----find-----")
+    wx = x + dirx[g]
+    wy = y + diry[g]
+    while 0 <= wx < N and 0 <= wy < N:
+        # pprint(board)
+        if board[wx][wy] == color:
+            return True
+        else:
+            wx += dirx[g]
+            wy += diry[g]
 
 
-T = int(input())
-for tc in range(1, T + 1):
-    N = int(input())
-    M = int(input())
-    v = [0] * (N + 1)
-    r = {}
-    r2 = {}
-    an = 0
+def doreverse(board):
+    print("------do-----")
+    wx = x + dirx[g]
+    wy = y + diry[g]
+    while 0 <= wx < N and 0 <= wy < N:
+        pprint(board)
+        if board[wx][wy] != color and board[wx][wy] != 0:
+            print(wx, wy)
+            board[wx][wy] = color
+            wx += dirx[g]
+            wy += diry[g]
+        else:
+            return
+
+
+for tc in range(1, int(input()) + 1):
+    N, M = map(int, input().split())
+    board = [[0] * N for _ in range(N)]
+    board[N // 2 - 1][N // 2 - 1] = 2
+    board[N // 2][N // 2] = 2
+    board[N // 2 - 1][N // 2] = 1
+    board[N // 2][N // 2 - 1] = 1
+
+    pprint(board)
+    action = [0] * M
     for i in range(M):
-        a, b = map(int, input().split())
-        r[a] = r.get(a, []) + [b]
-        r2[b] = r2.get(b, []) + [a]
-    for i in range(1, N + 1):
-        tv = [0] * (N + 1)
-        tv2 = [0] * (N + 1)
-        d1(i)
-        d2(i)
-        for g in range(1, N + 1):
-            tv[g] += tv2[g]
-            if tv[g] == 0:
-                break
-            if g == N:
-                an += 1
+        action[i] = list(map(int, input().split()))
 
-    print("#{} {}".format(tc, an))
+    for i in action:
+        x, y, color = map(int, i)
+        x -= 1
+        y -= 1
+        board[x][y] = color
+        print(board)
+        for g in range(8):
+            temp = [False] * 8
+            if findreverse(board):
+                print("----", g, "----")
+                temp[g] = True
+
+        for g in range(8):
+            if temp[g]:
+                # print("----", g, "----")
+                doreverse(board)
+            # wx = x + dirx[g]
+            # wy = y + diry[f]
+            # if 0<=wx<N and 0<=wy<N:
+            #     if board[wx][wy] ==
+    one = 0
+    two = 0
+    for i in board:
+        for g in i:
+            if g == 1:
+                one += 1
+            elif g == 2:
+                two += 1
+    pprint(board)
+    print("#{} {} {}".format(tc, one, two))
+    # pprint(action)
