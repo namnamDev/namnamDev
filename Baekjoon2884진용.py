@@ -1,9 +1,11 @@
 H, M = map(int, input().split())
-bef = M - 45
-if bef < 0:
-    bef += 60
-    H -= 1
-if H < 0:
-    H += 24
+if M < 45:
+    if H == 0:
+        H = 24 - 1
+    else:
+        H = H - 1
+    M = 45 - M
+else:
+    M = M - 45
 
-print('{} {}'.format(H, bef))
+print("{} {}".format(H, M))
