@@ -6,18 +6,20 @@ sys.stdin = open("Baekjoon1189.txt")
 def dfs(y, x, cnt):
     global an
     global visitied
-    # print()
-    # for i in visitied:
-    #     print(i)
-    # print(cnt)
-    # print(y, x, board[y][x], visitied[y][x], cnt)
-    if cnt > K - 1:
-        # print("over")
+    if visitied[end[0]][end[1]]:
+        if cnt > K - 1:
+            pass
+        elif cnt == K - 1:
+            an += 1
         return
 
     if visitied[end[0]][end[1]] and cnt == K - 1:
+        print()
+        for i in visitied:
+            print(i)
+        print(cnt)
         an += 1
-        # print("plus", an)
+        print("plus", an)
         return
 
     else:
@@ -31,8 +33,8 @@ def dfs(y, x, cnt):
                     visitied[wy][wx] = 0
 
 
-diry = [0, 0, -1, 1]
-dirx = [-1, 1, -0, 0]
+diry = [-1, 1, -0, 0]
+dirx = [0, 0, -1, 1]
 R, C, K = map(int, input().split())
 board = [list(input()) for _ in range(R)]
 start = (R - 1, 0)

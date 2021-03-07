@@ -1,6 +1,6 @@
-5
-top
-top
-top
-top
-kimtop
+5 5
+WBWWW
+WWWWW
+BBBBB
+BBBWW
+WWWWW

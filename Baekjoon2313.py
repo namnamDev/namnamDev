@@ -1,6 +1,9 @@
+import sys
 
-N = int(input())
-n=0
-while ((n*(n+1)/2)*6)+1<N:
-    n+=1
-print(n+1)
+sys.stdin = open("Baekjoon2313.txt")
+for tc in range(1, int(input()) + 1):
+    N = int(input())
+    arr = list(map(int, input().split()))
+    print(N, arr)
+    sums = 30 * 5 + 70 * 4 + 10 * 2 - 30
+    print(sums)

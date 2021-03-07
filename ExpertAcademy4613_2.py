@@ -3,19 +3,24 @@ import sys
 sys.stdin = open("ExpertAcademy4613.txt")
 
 
-def coloring(start, y, cnt):
+def coloring(start, y):
     a = 0
+    global minN
     if y == 3:
-        if visited[N - 1]:
-            print(visited, cnt)
+        if visited[N - 1] and visited == sorted(visited):
+            print(visited, cnt, end=" ")
+            for i in range(N):
+                for g in range(M):
+                    if arr[i][g] != color[visited[i]]:
+                        a += 1
+            print(a)
+            if a < minN:
+                minN = a
         return
     for i in range(start, N - (2 - y)):
         # print(start, N - (2 - y), i)
         visited[i] = y
-        for g in range(M):
-            if arr[i][g] != color[y]:
-                a += 1
-        coloring(i + 1, y + 1, cnt + a)
+        coloring(i + 1, y + 1)
 
     # for i in range(N):
     #     for g in range(M):
@@ -28,8 +33,9 @@ for tc in range(1, int(input()) + 1):
     arr = [list(input()) for _ in range(N)]
     visited = [0] * N
     cnt = 0
-    coloring(0, 0, 0)
-    print(arr)
+    minN = M * N
+    coloring(0, 0)
+    print(minN)
     # meW = []
     # meB = []
     # meR = []

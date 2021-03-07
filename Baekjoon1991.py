@@ -1,22 +1,20 @@
-while True:
-    try:
-        s, t = input().split()
-    except:
-        break
-    lenS = len(s)
-    lenT = len(t)
-    n = 0
-    m = 0
-    cnt = 0
-    an = "No"
-    while n < lenS:
-        # print(n, m, s[n], t[m])
-        if s[n] == t[m]:
-            n += 1
-            cnt += 1
-        m += 1
-        if m == lenT:
-            break
-    if cnt == lenS:
-        an = "Yes"
-    print(an)
+import sys
+
+sys.stdin = open("Baekjoon1991.txt")
+
+
+def pre():
+
+
+
+T = int(input())
+arr = [0] * (T + 1)
+for tc in range(T):
+    M, L, R = input().split()
+    if L == ".":
+        L = "@"
+    if R == ".":
+        R = "@"
+    arr[ord(M) - 64] = [ord(L) - 64, ord(R) - 64]
+print(arr)
+print(ord("A"), ord("Z"), chr(64))

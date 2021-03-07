@@ -1,31 +1,28 @@
 import sys
 
-sys.stdin = open("ExpertAcademy4613.txt")
+sys.stdin = open("ExpertAcademy5215.txt")
 
 
-def coloring(start, y):
-    a = 0
-    global minN
-    if y == 3:
-        if visited[N - 1] and visited == sorted(visited):
-            for i in range(N):
-                for g in range(M):
-                    if arr[i][g] != color[visited[i]]:
-                        a += 1
-            if a < minN:
-                minN = a
+def dfs(start, kal, li):
+    global an
+    sums = 0
+    if kal > M or len(li) > N:
         return
-    for i in range(start, N - (2 - y)):
-        visited[i] = y
-        coloring(i + 1, y + 1)
+    else:
+        for i in li:
+            sums += arr[i][0]
+        an.append(sums)
+        for i in range(start, N):
+            if visited[i] == 0:
+                visited[i] = 1
+                dfs(i, kal + arr[i][1], li + [i])
+                visited[i] = 0
 
 
-color = ["W", "B", "R"]
 for tc in range(1, int(input()) + 1):
     N, M = map(int, input().split())
-    arr = [list(input()) for _ in range(N)]
+    arr = [list(map(int, input().split())) for _ in range(N)]
     visited = [0] * N
-    cnt = 0
-    minN = M * N
-    coloring(0, 0)
-    print("#{} {}".format(tc, minN))
+    an = []
+    dfs(0, 0, [])
+    print("#{} {}".format(tc, max(an)))
