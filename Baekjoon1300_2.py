@@ -11,7 +11,7 @@ for i in range(N):
 
 cnt = 0
 visited[0][0] = 1
-mins = arr[N - 1][N - 1]
+minis = arr[N - 1][N - 1]
 Q = [[0, 0]]
 while cnt < k:
     now = Q.pop(0)
@@ -24,6 +24,6 @@ while cnt < k:
                 visited[wy][wx] = 1
     cnt += 1
     print(Q)
-print(mins)
+print(minis)
 for i in arr:
     print(i)

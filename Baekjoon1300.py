@@ -1,5 +1,5 @@
 def dfs(cnt, y, x):
-    global mins
+    global minis
     if cnt == k:
         if mins > arr[y][x]:
             mins = arr[y][x]
@@ -28,8 +28,8 @@ for i in range(N):
 
 # now = [0, 0]
 visited[0][0] = 1
-mins = arr[N - 1][N - 1]
+minis = arr[N - 1][N - 1]
 for i in arr:
     print(i)
 dfs(0, 0, 0)
-print(mins)
+print(minis)
