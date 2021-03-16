@@ -1,7 +1,6 @@
 3
-2 3
-WLL
-LLL
+1 5
+LLLLW
 3 2
 WL
 LL
