@@ -9,7 +9,7 @@ for tc in range(int(input())):
     used = [0] * len(st)
     g = 0
     cnt = 0
-    maxs = 0
+    ms = 0
 
     while g < len(st) - 4:
         i = g
@@ -27,10 +27,10 @@ for tc in range(int(input())):
                     cnt += 1
                     mt += 1
 
-            print(maxs, mt)
-            if maxs < mt:
-                maxs = mt
-        print(used, g, i, cnt, maxs)
+            print(ms, mt)
+            if ms < mt:
+                ms = mt
+        print(used, g, i, cnt, ms)
         print(st)
         if 0 in used:
             g = used.index(0)

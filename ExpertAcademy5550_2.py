@@ -9,7 +9,7 @@ for tc in range(1, int(input()) + 1):
     used = [0] * len(st)
     g = 0
     cnt = 0
-    maxs = 0
+    ms = 0
     while g < len(st) - 4:
         maxTemp = 1
         i = g
@@ -34,11 +34,11 @@ for tc in range(1, int(input()) + 1):
                         used[g] = 1
                     idxs = []
                     break
-        if maxs < maxTemp:
-            maxs = maxTemp
+        if ms < maxTemp:
+            ms = maxTemp
 
         if usedTemp == used:
-            maxs = -1
+            ms = -1
             break
         # print(used, g, i, cnt, maxs)
         # print(st)
@@ -47,6 +47,6 @@ for tc in range(1, int(input()) + 1):
         else:
             break
     if 0 in used:
-        maxs = -1
+        ms = -1
 
-    print("#{} {}".format(tc, maxs))
+    print("#{} {}".format(tc, ms))

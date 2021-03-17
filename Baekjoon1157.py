@@ -1,20 +1,21 @@
 N = input()
-an =''
+an = ''
 res = {}
-for i in N :
+for i in N:
     f = ord(i)
-    if(f >= 97) : 
+    if (f >= 97):
         f -= 32
     an += chr(f)
 ann = set(an)
-maxs = 0 
-for i in ann :
+ms = 0
+for i in ann:
     temp = an.count(i)
-    an = an.replace(i,'')
-    res[temp] = res.get(temp,[]) + [i]
-    if maxs < temp:
-        maxs = temp
+    an = an.replace(i, '')
+    res[temp] = res.get(temp, []) + [i]
+    if ms < temp:
+        ms = temp
 
-if len(res[maxs])>1:
+if len(res[ms]) > 1:
     print('?')
-else : print(*res[maxs])
+else:
+    print(*res[ms])
