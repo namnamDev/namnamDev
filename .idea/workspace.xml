@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b7276b-c7ed-4021-a2ae-dcf148d1001b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon1446.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1446.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1593.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1593.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1593_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1593_bin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon16456.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1992.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1992.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1992_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2036.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2036.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2759.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2759.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81b7276b-c7ed-4021-a2ae-dcf148d1001b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +12,15 @@
     <session id="1781706210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="76" />
+          <entry key="project.closed" value="77" />
           <entry key="project.open.time.0" value="20" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="15" />
-          <entry key="project.open.time.3" value="35" />
+          <entry key="project.open.time.3" value="36" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="81" />
+          <entry key="project.opened" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -161,8 +145,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="492" />
-    <option name="y" value="136" />
+    <option name="x" value="-2" />
+    <option name="y" value="499" />
     <option name="width" value="2046" />
     <option name="height" value="1090" />
   </component>
@@ -369,7 +353,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="492" y="136" width="2046" height="1090" extended-state="0" />
+    <frame x="-2" y="499" width="2046" height="1090" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8199792" visible="true" weight="0.20916335" />
       <window_info id="Structure" order="1" sideWeight="0.18002081" side_tool="true" weight="0.1582774" />
@@ -673,9 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <marker date="1616209370297" expanded="true" signature="153:461" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <marker date="1616228900068" expanded="true" signature="119:1253" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,16 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding>
-            <marker date="1616232386061" expanded="true" signature="24:359" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1446.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -758,6 +723,13 @@
           <folding>
             <marker date="1616233864486" expanded="true" signature="108:333" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1446.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
