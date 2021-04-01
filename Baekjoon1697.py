@@ -15,5 +15,6 @@ def powerset(n, m, cnt):
 
 N, M = map(int, input().split())
 mins = abs(M - N)
+board = [0] * M
 powerset(N, M, 0)
 print(mins)
