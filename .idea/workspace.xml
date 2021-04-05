@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b7276b-c7ed-4021-a2ae-dcf148d1001b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ExpertAcademy1231.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExpertAcademy1231.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programers_2020 KAKAO BLIND RECRUITMENT_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programers_2020 KAKAO BLIND RECRUITMENT_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,27 +16,27 @@
     <session id="1781706210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="95" />
+          <entry key="project.closed" value="96" />
           <entry key="project.open.time.0" value="20" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="21" />
-          <entry key="project.open.time.3" value="48" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.3" value="49" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="101" />
+          <entry key="project.opened" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="263" />
-          <entry key="txt" value="135" />
+          <entry key="py" value="264" />
+          <entry key="txt" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="135" />
-          <entry key="Python" value="263" />
+          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="Python" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -69,13 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Programers_2020 KAKAO BLIND RECRUITMENT_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="245">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpertAcademy1231.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExpertAcademy1231.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -95,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ExpertAcademy4012_2.py" />
         <option value="$PROJECT_DIR$/ExpertAcademy4012.txt" />
         <option value="$PROJECT_DIR$/ExpertAcademy4012_3.py" />
         <option value="$PROJECT_DIR$/ExpertAcademy4012.py" />
@@ -146,12 +156,13 @@
         <option value="$PROJECT_DIR$/Baekjoon1697.py" />
         <option value="$PROJECT_DIR$/Baekjoon1697_2.py" />
         <option value="$PROJECT_DIR$/Programers_2020 KAKAO BLIND RECRUITMENT_2.py" />
+        <option value="$PROJECT_DIR$/ExpertAcademy1231.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="409" />
-    <option name="y" value="113" />
+    <option name="x" value="336" />
+    <option name="y" value="68" />
     <option name="width" value="2046" />
     <option name="height" value="1171" />
   </component>
@@ -177,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,6 +199,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,7 +369,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="113" width="2046" height="1171" extended-state="0" />
+    <frame x="939" y="765" width="2046" height="1171" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8199792" visible="true" weight="0.25149402" />
       <window_info id="Structure" order="1" sideWeight="0.18002081" side_tool="true" weight="0.1582774" />
@@ -402,20 +413,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy4012.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy4012.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExpertAcademy4012우영.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
@@ -732,10 +729,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Programers_2020 KAKAO BLIND RECRUITMENT_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="245">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpertAcademy1231.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpertAcademy1231.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
