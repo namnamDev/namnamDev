@@ -1,79 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b7276b-c7ed-4021-a2ae-dcf148d1001b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16진수변환.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1241.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1241.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1753.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1753.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1759.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1759.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1759_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1991_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1991_2_re.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2206.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2206.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2206_noprint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2206_noprint2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2580.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2580.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2580_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon2580_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon3020.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon3020.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon3020_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon9663.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon9663_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon9663_2_re.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon9663_2_re2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11750.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11750.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11753.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11753.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11760.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11760.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11763.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11763.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11764.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11764.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11765.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11765.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11767.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy11767.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1240.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1240.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1242.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1242.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1244.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1244.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1244_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1244_2vs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1244_2vs2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1244_temp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1247.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1247.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1486.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1486.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1861.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1861.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1861_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1970.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1970.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy2819.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy2819.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy4012_re.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy4012_re_np.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy4366.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy4366.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy4366_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appendtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appendtest_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/프로그래머스 월간코테 시즌2 4번.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon1991.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon1991.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpertAcademy4012.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ExpertAcademy4012.txt" afterDir="false" />
-    </list>
+    <list default="true" id="81b7276b-c7ed-4021-a2ae-dcf148d1001b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +12,7 @@
     <session id="1781706210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="108" />
+          <entry key="project.closed" value="109" />
           <entry key="project.open.time.0" value="22" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="22" />
@@ -145,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExpertAcademy1247.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="17" column="81" lean-forward="true" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+            <state relative-caret-position="361">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <marker date="1618558317608" expanded="true" signature="369:604" ph="..." />
                 <marker date="1618558317608" expanded="true" signature="528:604" ph="..." />
@@ -252,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="548" />
     <option name="y" value="186" />
     <option name="width" value="1677" />
@@ -463,12 +391,12 @@
   <component name="ToolWindowManager">
     <frame x="548" y="186" width="1677" height="1319" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81450486" visible="true" weight="0.17022575" />
-      <window_info id="Structure" order="1" sideWeight="0.18549512" side_tool="true" visible="true" weight="0.17022575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8150338" visible="true" weight="0.17022575" />
+      <window_info id="Structure" order="1" sideWeight="0.18496622" side_tool="true" visible="true" weight="0.17022575" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32672334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3944257" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3944257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2935207" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -847,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ExpertAcademy1247.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="81" lean-forward="true" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+        <state relative-caret-position="361">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <marker date="1618558317608" expanded="true" signature="369:604" ph="..." />
             <marker date="1618558317608" expanded="true" signature="528:604" ph="..." />
