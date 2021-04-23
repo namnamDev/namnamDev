@@ -15,7 +15,7 @@ def food_value(t1_arr):
 
 def powerset(cnt, val, arr, idx):
     if cnt == N // 2:
-        global min_val
+        global min_cnt
         t1 = ''
         t2 = ''
         # arr2 = []
@@ -43,10 +43,10 @@ def powerset(cnt, val, arr, idx):
 for tc in range(int(input())):
     N = int(input())
     board = [list(map(int, input().split())) for _ in range(N)]
-    min_val = 99999999999999999999
+    min_cnt = 99999999999999999999
     food = {}
     for i in range(N):
         vi = [0] * N
         vi[i] = 1
         powerset(1, 0, [i], i)
-    print("#{} {}".format(tc + 1, min_val))
+    print("#{} {}".format(tc + 1, min_cnt))
