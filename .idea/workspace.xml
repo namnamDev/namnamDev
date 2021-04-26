@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b7276b-c7ed-4021-a2ae-dcf148d1001b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1249.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1249.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1795.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy1795.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy7465.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertAcademy7465.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon4386.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon4386.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExpertAcademy1798.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExpertAcademy1798.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,46 +18,98 @@
     <session id="1781706210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="116" />
-          <entry key="project.open.time.0" value="22" />
+          <entry key="project.closed" value="118" />
+          <entry key="project.open.time.0" value="23" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="23" />
-          <entry key="project.open.time.3" value="61" />
+          <entry key="project.open.time.3" value="63" />
           <entry key="project.open.time.4" value="9" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="125" />
+          <entry key="project.opened" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="375" />
-          <entry key="txt" value="195" />
+          <entry key="py" value="378" />
+          <entry key="txt" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="195" />
-          <entry key="Python" value="375" />
+          <entry key="PLAIN_TEXT" value="198" />
+          <entry key="Python" value="378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="68" />
-          <entry key="py" value="119987" />
+          <entry key="py" value="121323" />
           <entry key="txt" value="1102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1170" />
-          <entry key="Python" value="119987" />
+          <entry key="Python" value="121323" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpertAcademy1798.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <marker date="1619434020821" expanded="true" signature="114:199" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Baekjoon4386.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="29" />
+              <folding>
+                <marker date="1619436996402" expanded="true" signature="64:699" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon7569.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon4386.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpertAcademy1798.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6441">
+              <caret line="339" lean-forward="true" selection-start-line="339" selection-end-line="339" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,10 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ExpertAcademy1861.py" />
-        <option value="$PROJECT_DIR$/ExpertAcademy1861.txt" />
-        <option value="$PROJECT_DIR$/ExpertAcademy1861_2.py" />
-        <option value="$PROJECT_DIR$/ExpertAcademy1486.txt" />
         <option value="$PROJECT_DIR$/ExpertAcademy1486.py" />
         <option value="$PROJECT_DIR$/ExpertAcademy2819.txt" />
         <option value="$PROJECT_DIR$/ExpertAcademy2819.py" />
@@ -135,12 +181,16 @@
         <option value="$PROJECT_DIR$/ExpertAcademy1249.py" />
         <option value="$PROJECT_DIR$/ExpertAcademy7465.txt" />
         <option value="$PROJECT_DIR$/ExpertAcademy7465.py" />
+        <option value="$PROJECT_DIR$/ExpertAcademy1798.txt" />
+        <option value="$PROJECT_DIR$/ExpertAcademy1798.py" />
+        <option value="$PROJECT_DIR$/Baekjoon4386.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon4386.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="862" />
-    <option name="y" value="59" />
+    <option name="x" value="889" />
+    <option name="y" value="19" />
     <option name="width" value="1613" />
     <option name="height" value="1353" />
   </component>
@@ -166,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,7 +228,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,8 +251,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ExpertAcademy7465">
-    <configuration name="ExpertAcademy11782" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Baekjoon4386">
+    <configuration name="Baekjoon4386" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,28 +264,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExpertAcademy11782.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ExpertAcademy11782_다익" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExpertAcademy11782_다익.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon4386.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,6 +315,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ExpertAcademy1798" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExpertAcademy1798.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ExpertAcademy7465" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,19 +358,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ExpertAcademy11782" />
-      <item itemvalue="Python.ExpertAcademy11782_다익" />
       <item itemvalue="Python.ExpertAcademy1795" />
       <item itemvalue="Python.ExpertAcademy1249" />
       <item itemvalue="Python.ExpertAcademy7465" />
+      <item itemvalue="Python.ExpertAcademy1798" />
+      <item itemvalue="Python.Baekjoon4386" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Baekjoon4386" />
+        <item itemvalue="Python.ExpertAcademy1798" />
         <item itemvalue="Python.ExpertAcademy7465" />
         <item itemvalue="Python.ExpertAcademy1249" />
         <item itemvalue="Python.ExpertAcademy1795" />
-        <item itemvalue="Python.ExpertAcademy11782_다익" />
-        <item itemvalue="Python.ExpertAcademy11782" />
       </list>
     </recent_temporary>
   </component>
@@ -347,14 +397,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="862" y="59" width="1613" height="1353" extended-state="0" />
+    <frame x="889" y="19" width="1613" height="1353" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7996716" visible="true" weight="0.14920636" />
-      <window_info id="Structure" order="1" sideWeight="0.20032841" side_tool="true" visible="true" weight="0.14920636" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79499215" visible="true" weight="0.14920636" />
+      <window_info id="Structure" order="1" sideWeight="0.20500782" side_tool="true" visible="true" weight="0.14920636" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3259442" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34893268" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47536945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2935207" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,48 +423,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy1861.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="696" column="48" selection-start-line="696" selection-start-column="48" selection-end-line="696" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy1486.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy1486.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy2819.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy2819.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy4366.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExpertAcademy4366_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -712,6 +721,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1181_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpertAcademy1798.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6441">
+          <caret line="339" lean-forward="true" selection-start-line="339" selection-end-line="339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpertAcademy1798.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1619434020821" expanded="true" signature="114:199" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon4386.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon7569.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon4386.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="29" />
+          <folding>
+            <marker date="1619436996402" expanded="true" signature="64:699" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
