@@ -47,7 +47,7 @@ def recul(depth, n, m):
         #     print(i)
         return
     else:
-        for i in range(N):
+        for i in range(n, N):
             for g in range(M):
                 if vi[i][g] == 0 and board[i][g] == 0:
                     vi[i][g] = 1

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b7276b-c7ed-4021-a2ae-dcf148d1001b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/user01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단식원.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단식원2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/좀비아파트를구하라.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/좀비아파트를구하라.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0611test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0611test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0611test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0611test_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon10844.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StarDraft 승부 예측하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StarDraft 승부 예측하기.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/단식원2.py" beforeDir="false" afterPath="$PROJECT_DIR$/단식원2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +22,7 @@
     <session id="1781706210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="164" />
+          <entry key="project.closed" value="165" />
           <entry key="project.open.time.0" value="23" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="24" />
@@ -32,29 +35,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="0611class" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="py" value="395" />
-          <entry key="txt" value="202" />
+          <entry key="py" value="402" />
+          <entry key="txt" value="205" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="PLAIN_TEXT" value="202" />
-          <entry key="Python" value="395" />
+          <entry key="PLAIN_TEXT" value="206" />
+          <entry key="Python" value="402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="68" />
-          <entry key="py" value="126039" />
-          <entry key="txt" value="1102" />
+          <entry key="py" value="128290" />
+          <entry key="txt" value="1112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1170" />
-          <entry key="Python" value="126039" />
+          <entry key="PLAIN_TEXT" value="1180" />
+          <entry key="Python" value="128290" />
         </counts>
       </usages-collector>
     </session>
@@ -62,23 +66,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/좀비아파트를구하라.py">
+        <entry file="file://$PROJECT_DIR$/0611test_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="766">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1623377271932" expanded="true" signature="188:489" ph="..." />
+                <marker date="1623392265636" expanded="true" signature="248:550" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/좀비아파트를구하라.txt">
+        <entry file="file://$PROJECT_DIR$/0611test_2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="23">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -100,6 +103,8 @@
       <find>14</find>
       <find>print</find>
       <find>35</find>
+      <find>#1</find>
+      <find>#2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,13 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ExpertAcademy1259.txt" />
-        <option value="$PROJECT_DIR$/ExpertAcademy1259.py" />
-        <option value="$PROJECT_DIR$/ExpertAcademy11772.txt" />
-        <option value="$PROJECT_DIR$/ExpertAcademy11772.py" />
-        <option value="$PROJECT_DIR$/ExpertAcademy1865.txt" />
-        <option value="$PROJECT_DIR$/ExpertAcademy11775.txt" />
-        <option value="$PROJECT_DIR$/ExpertAcademy11775.py" />
         <option value="$PROJECT_DIR$/ExpertAcademy1865.py" />
         <option value="$PROJECT_DIR$/ExpertAcademy2806.txt" />
         <option value="$PROJECT_DIR$/ExpertAcademy2806.py" />
@@ -157,16 +155,23 @@
         <option value="$PROJECT_DIR$/단식원.txt" />
         <option value="$PROJECT_DIR$/좀비아파트를구하라.txt" />
         <option value="$PROJECT_DIR$/단식원.py" />
-        <option value="$PROJECT_DIR$/단식원2.py" />
         <option value="$PROJECT_DIR$/좀비아파트를구하라.py" />
+        <option value="$PROJECT_DIR$/StarDraft 승부 예측하기.txt" />
+        <option value="$PROJECT_DIR$/StarDraft 승부 예측하기.py" />
+        <option value="$PROJECT_DIR$/단식원2.py" />
+        <option value="$PROJECT_DIR$/Baekjoon10844.py" />
+        <option value="$PROJECT_DIR$/0611test.txt" />
+        <option value="$PROJECT_DIR$/0611test.py" />
+        <option value="$PROJECT_DIR$/0611test_2.txt" />
+        <option value="$PROJECT_DIR$/0611test_2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="263" />
-    <option name="y" value="32" />
+    <option name="x" value="-84" />
+    <option name="y" value="93" />
     <option name="width" value="2267" />
-    <option name="height" value="1339" />
+    <option name="height" value="1332" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -225,8 +230,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.좀비아파트를구하라">
-    <configuration name="단식원" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.0611test_2">
+    <configuration name="0611test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,7 +243,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/단식원.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0611test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="0610test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="0611test_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,7 +264,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0610test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0611test_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,7 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Baekjoon1158_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="StarDraft 승부 예측하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,7 +327,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon1158_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StarDraft 승부 예측하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,19 +337,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Baekjoon1158_3" />
-      <item itemvalue="Python.0610test" />
-      <item itemvalue="Python.단식원" />
       <item itemvalue="Python.단식원2" />
       <item itemvalue="Python.좀비아파트를구하라" />
+      <item itemvalue="Python.StarDraft 승부 예측하기" />
+      <item itemvalue="Python.0611test" />
+      <item itemvalue="Python.0611test_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.좀비아파트를구하라" />
+        <item itemvalue="Python.0611test_2" />
+        <item itemvalue="Python.0611test" />
         <item itemvalue="Python.단식원2" />
-        <item itemvalue="Python.단식원" />
-        <item itemvalue="Python.0610test" />
-        <item itemvalue="Python.Baekjoon1158_3" />
+        <item itemvalue="Python.StarDraft 승부 예측하기" />
+        <item itemvalue="Python.좀비아파트를구하라" />
       </list>
     </recent_temporary>
   </component>
@@ -371,21 +376,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="263" y="32" width="2267" height="1339" extended-state="0" />
-    <editor active="true" />
+    <frame x="-84" y="93" width="2267" height="1332" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73492604" visible="true" weight="0.24809332" />
-      <window_info id="Structure" order="1" sideWeight="0.26507396" side_tool="true" visible="true" weight="0.24809332" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7337278" visible="true" weight="0.24809332" />
+      <window_info id="Structure" order="1" sideWeight="0.2662722" side_tool="true" visible="true" weight="0.24809332" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3259442" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26134455" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26289096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2935207" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291506" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24691358" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24621849" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32913518" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -397,62 +401,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baekjoon16236.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon16236_np.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon10942.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon16236.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon10942_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpertAcademy2814.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon10942.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon10942_2_np.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExpertAcademy2814.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -687,25 +635,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/단식원2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/프로그래머스 월간코테 시즌2 4번.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/단식원.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="4" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <marker date="1623373459611" expanded="true" signature="111:1594" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/좀비아파트를구하라.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -714,13 +645,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StarDraft 승부 예측하기.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/좀비아파트를구하라.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="364">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1623377271932" expanded="true" signature="188:489" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/단식원.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="18" column="28" selection-start-line="4" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <marker date="1623373459611" expanded="true" signature="111:1594" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/단식원2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0611class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0611test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <marker date="1623390516668" expanded="true" signature="108:111" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon10844.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StarDraft 승부 예측하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <marker date="1623379465439" expanded="true" signature="110:593" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0611test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0611test_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0611test_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <marker date="1623392265636" expanded="true" signature="248:550" ph="..." />
           </folding>
         </state>
       </provider>
