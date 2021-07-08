@@ -1,47 +1,41 @@
-def dfs(now, nums, cnt, board):
-    global an
-    if cnt == N - 1:
-        print()
-        for i in board:
-            print(i)
-        an += 1
-        return
+diry = [-1, 1, 0, 0, -1, 1, 1, -1]
+dirx = [0, 0, -1, 1, -1, 1, -1, 1]
 
-    if nums == N:
-        return
-    else:
-        temp_board = [[0] * N for _ in range(N)]
-        for i in range(N):
-            for g in range(N):
-                temp_board[i][g] = board[i][g]
 
-        if not temp_board[now[0]][now[1]]:
-            temp_board[now[0]][now[1]] = 2
-            for dirs in range(8):
-                wy = now[0] + diry[dirs]
-                wx = now[1] + dirx[dirs]
+def dfs(y, x, arr, M):
+    tempArr = [[0] * N for _ in range(N)]
+    for i in range(N):
+        for g in range(N):
+            tempArr[i][g] = arr[i][g]  # 카피
+    if M == N:
+        if tempArr not in used:
+            global cnt
+            cnt += 1
+            print()
+            for i in tempArr:
+                print(i)
+            used.append(tempArr)
+        return
+    if y == N:
+        return
+    for xx in range(x, N):
+        if not arr[y][xx]:
+            arr[y][xx] = 2
+            for i in range(8):
+                wy = y + diry[i]
+                wx = xx + dirx[i]
                 while 0 <= wy < N and 0 <= wx < N:
-                    temp_board[wy][wx] = 1
-                    wy += diry[dirs]
-                    wx += dirx[dirs]
-            temparr = temp_board[nums + 1]
-            for i in range(N):
-                if not temparr[i]:
-                    dfs([nums + 1, i], nums + 1, cnt + 1, temp_board)
-            # for i in range(nums + 1, N):
-            #     for g in range(N):
-            #         if not temp_board[i][g]:
-            #             dfs([i, g], nums + 1, cnt + 1, temp_board)
-            # dfs([i, g], nums + 1, cnt, board)
+                    arr[wy][wx] = 1
+                    wy += diry[i]
+                    wx += dirx[i]
+            dfs(y + 1, 0, arr, M + 1)  # 퀸 놓고 넘기기. 해당 열에는 퀸을 놓을수 없으므로 y+1해주고, x=0
+            dfs(y, xx + 1, tempArr, M)  # 퀸 놓지않고 넘기기
 
 
-diry = [-1, 1, -1, 1, 0, 0, 1, -1]
-dirx = [-1, 1, 1, -1, 1, -1, 0, 0]
 N = int(input())
-an = 0
-for i in range(N):
-    for g in range(N):
-        board_arr = [[0] * N for _ in range(N)]
-        dfs([i, g], 0, 0, board_arr)
+cnt = 0
+used = []
 
-print(an)
+board = [[0] * N for _ in range(N)]
+dfs(0, 0, board, 0)
+print(cnt)
