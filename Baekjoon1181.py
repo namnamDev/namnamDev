@@ -2,17 +2,22 @@ import sys
 
 sys.stdin = open("Baekjoon1181.txt")
 T = int(input())
-li = [input() for i in range(T)]
-arr = []
-li = list(set(li))
-lenLi = len(li)
-for i in range(lenLi):
-    for g in range(i + 1, lenLi):
-        if len(li[i]) > len(li[g]):
-            li[i], li[g] = li[g], li[i]
-        elif len(li[i]) == len(li[g]):
-            for f in range(len(li[i])):
-                if ord(li[i][f]) < ord(li[g][f]):
-                    li[i], li[g] = li[g], li[i]
-for ii in li:
-    print(ii)
+counting = [[] for _ in range(51)]
+an = ""
+for i in range(T):
+    w = input()
+    counting[len(w)].append(w)
+for i in range(51):
+    if counting[i]:
+        counting[i] = list(set(counting[i]))
+        # print(counting[i])
+        counting[i].sort()
+        for g in counting[i]:
+            an += g + '\n'
+
+print(an)
+
+# li = [input() for i in range(T)]
+# arr = []
+# li = list(set(li))
+# print(li)
