@@ -1,37 +1,26 @@
 import sys
 
-sys.stdin = open("Baekjoon1342.txt")
+sys.stdin = open('Baekjoon1342.txt')
 
 
-def dfs(N):
-    global temp
-    global an
-    if N == n:
-        print(an)
+def back(paArr, befores):
+    if len(paArr) == len(N):
+        global cnt
+        cnt += 1
         return
-    else:
-        a = 0
-        while a < 26:
-            if temp[a]:
-                temp[a] -= 1
-                an.append(chr(a + 97))
-                dfs(N + 1)
-            else:
-                a += 1
+    for i in range(len(N)):
+        if N[i] != befores and not vi[i] and not memo.get(paArr + N[i]):
+            memo[paArr + N[i]] = 1
+            vi[i] = 1
+            back(paArr + N[i], N[i])
+            vi[i] = 0
 
 
-S = input()
-n = len(S)
-temp = [0] * 26
-an = []
-print(ord('a'), ord('z'), ord('z') - ord('a'))
-for i in S:
-    temp[ord(i) - 97] += 1
-
-print(temp)
-dfs(0)
-# setS = set(S)
-# print(setS)
-# for i in setS:
-#     temp = [i]
-#     dfs(1)
+N = list(input())
+cnt = 0
+memo = {}
+for ii in range(len(N)):
+    vi = [0] * len(N)
+    vi[ii] = 1
+    back(N[ii], N[ii])
+print(cnt)
