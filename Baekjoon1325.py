@@ -1,33 +1,32 @@
 import sys
 
-sys.stdin = open('Baekjoon1326.txt')
+sys.stdin = open('Baekjoon1195.txt')
 
-from collections import deque
+N, M = map(int, input().split())
+board = [[] for _ in range(N + 1)]
+for i in range(M):
+    A, B = map(int, input().split())
+    board[B].append(A)
 
-N = int(input())
-bridge = list(map(int, input().split()))
-start, end = map(int, input().split())
-vi = [-1] * N
-start -= 1
-end -= 1
-vi[start] = 0
-Q = deque([start])
-while Q:
-    now = Q.popleft()
-    num = bridge[now]
-    rc = lc = 1
+an = {}
+maxs = 0
+for idx in range(1, N + 1):
+    vi = [0] * (N + 1)
+    vi[idx] = 1
+    cnt = 0
+    Q = [idx]
+    while Q:
+        now = Q.pop()
+        tempArr = board[now]
+        for tempIdx in range(len(tempArr)):
+            if not vi[tempArr[tempIdx]]:
+                vi[tempArr[tempIdx]] = 1
+                Q.append(tempArr[tempIdx])
+                cnt += 1
+    if not an.get(cnt):
+        an[cnt] = [idx]
+    else:
+        an[cnt].append(idx)
+    maxs = max(cnt, maxs)
 
-    while now + rc * num < N:
-        if vi[now + rc * num] < 0:
-            vi[now + rc * num] = vi[now] + 1
-            Q.append(now + rc * num)
-        rc += 1
-
-    while 0 <= now - lc * num:
-        if vi[now - lc * num] < 0:
-            vi[now - lc * num] = vi[now] + 1
-            Q.append(now - lc * num)
-        lc += 1
-    if vi[end] > 0:
-        break
-print(vi[end])
+print(*an.get(maxs))
