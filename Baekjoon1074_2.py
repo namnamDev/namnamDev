@@ -4,7 +4,8 @@ sys.stdin = open("Baekjoon1074.txt")
 
 
 def recul(n, paY, paX):
-    if board[r][c]:
+    global printed
+    if printed:
         return
     if n > 1:
         tempN = n - 1
@@ -17,20 +18,19 @@ def recul(n, paY, paX):
         for i in range(4):
             wy = paY + diry[i]
             wx = paX + dirx[i]
-            board[wy][wx] = cnt
+            # board[wy][wx] = 1
+            if wy == r and wx == c:
+                print(cnt)
+                printed = True
             cnt += 1
 
 
 diry = [0, 0, 1, 1]
 dirx = [0, 1, 0, 1]
 N, r, c = map(int, input().split())
-print(N, r, c)
-board = [[0] * (2 ** N) for _ in range(2 ** N)]
+printed = False
 cnt = 0
 recul(N, 0, 0)
-for line in board:
-    print(line)
-print(board[r][c])
 # n = 1
 # [0,0][1,0][0,1][1,1]
 # n=2
