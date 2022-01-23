@@ -1,50 +1,79 @@
 import sys
-import time
 
 sys.stdin = open('Baekjoon2580.txt')
-start = time.time()
+
 from collections import deque
-
-
-def count9(arr, point):
-    re = []
-    if board[point[0]][point[1]]:
-        return
-    for i in range(1, 10):
-        if i not in arr:
-            re.append(i)
-    if len(re) == 1:
-        board[point[0]][point[1]] = re[0]
-    return re
-
 
 board = [list(map(int, input().split())) for _ in range(9)]
 
-Q = deque([])
-for i in range(9):
-    for g in range(9):
-        if not board[i][g]:
-            Q.append([i, g])
-while len(Q):
-    i = Q.popleft()
-    if not board[i[0]][i[1]]:
-        row = board[i[0]]
-        count9(row, i)
-        col = []
-        box = []
-        for g in range(9):
-            col.append(board[g][i[1]])
-        count9(col, i)
-        boxy = (i[0] // 3) * 3
-        boxx = (i[1] // 3) * 3
-        for f in range(3):
-            templine = board[boxy + f]
-            box += templine[boxx:boxx + 3]
-        count9(box, i)
 
-        if not board[i[0]][i[1]]:
-            Q.append(i)
+def se(paY):
+    sums = 0
+    vi = [0] * 9
+    for i in board[paY]:
+        sums += i
+        if i:
+            vi[i - 1] += 1
+    # print("se", vi.count(0), 45 - sums)
+    # print(vi)
+    if vi.count(0) > 1:
+        return 0
+    return 45 - sums
+
+
+def ga(paX):
+    sums = 0
+    vi = [0] * 9
+    for i in range(9):
+        sums += board[i][paX]
+        if board[i][paX]:
+            vi[board[i][paX] - 1] += 1
+    # print("ga", vi.count(0), 45 - sums)
+    if vi.count(0) > 1:
+        return 0
+    return 45 - sums
+
+
+def sa(paY, paX):
+    minY = (paY // 3) * 3
+    minX = (paX // 3) * 3
+    sums = 0
+    vi = [0] * 9
+    for y in range(minY, minY + 3):
+        for x in range(minX, minX + 3):
+            sums += board[y][x]
+            # print(y, x, board[y][x])
+            if board[y][x]:
+                vi[board[y][x] - 1] += 1
+    if vi.count(0) > 1:
+        return 0
+    return 45 - sums
+
+
+nonList = deque([])
+for y in range(9):
+    for x in range(9):
+        if not board[y][x]:
+            tempNum = max(sa(y, x), ga(x), se(y))
+            if tempNum:
+                board[y][x] = tempNum
+            else:
+                nonList.append([y, x])
+while nonList:
+    now = nonList.popleft()
+    y, x = now[0], now[1]
+    tempNum = max(sa(y, x), ga(x), se(y))
+    if tempNum:
+        board[y][x] = tempNum
+    else:
+        nonList.append([y, x])
 
 for i in board:
     print(*i)
-print((time.time() - start) * 1000)
+
+# vii = [0] * 10
+#
+# for i in board:
+#     for x in i:
+#         vii[x] += 1
+# print(vii)
