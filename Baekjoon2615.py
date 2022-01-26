@@ -4,52 +4,32 @@ sys.stdin = open("Baekjoon2615.txt")
 
 
 def oh():
-    for i in range(N):
-        for g in range(N):
-            bw = board[i][g]
-            if bw != "0":
-                y = i
-                x = g
-                for d in range(4):
+    for x in range(19):
+        for y in range(19):
+            if board[y][x]:
+                col = board[y][x]
+                for d in range(8):
+                    wy = dy[d] + y
+                    wx = dx[d] + x
                     cnt = 1
-                    tempArr = [[x, y]]
-                    while True:
-                        wy = y + dry[d]
-                        wx = x + drx[d]
-                        if 0 <= wy < N and 0 <= wx < N and board[wy][wx] == bw:
-                            tempArr.append([wx, wy])
-                            y = wy
-                            x = wx
-                            cnt += 1
-                        else:
-                            break
-                    y = i
-                    x = g
-                    while True:
-                        wy = y - dry[d]
-                        wx = x - drx[d]
-                        if 0 <= wy < N and 0 <= wx < N and board[wy][wx] == bw:
-                            tempArr.append([wx, wy])
-                            y = wy
-                            x = wx
-                            cnt += 1
-                        else:
-                            break
+                    while 0 <= wy < 19 and 0 <= wx < 19 and board[wy][wx] == col:
+                        cnt += 1
+                        wy += dy[d]
+                        wx += dx[d]
+                    wwy = y - dy[d]
+                    wwx = x - dx[d]
+                    while 0 <= wwy < 19 and 0 <= wwx < 19 and board[wwy][wwx] == col:
+                        cnt += 1
+                        wwy -= dy[d]
+                        wwx -= dx[d]
                     if cnt == 5:
-                        tempArr.sort()
-                        an = bw
-                        an2 = [tempArr[0][1] + 1, tempArr[0][0] + 1]
-                        return [an, an2]
+                        print(col)
+                        print(y + 1, x + 1)
+                        return
+    print(0)
 
 
-N = 19
-dry = [0, 1, 1, 1]
-drx = [1, 0, 1, -1]
-board = [input().split() for _ in range(N)]
-
-aa = oh()
-if aa:
-    print(aa[0])
-    print(*aa[1])
-else:
-    print("0")
+board = [list(map(int, input().split())) for _ in range(19)]
+dy = [-1, 1, 0, 0, 1, 1, -1, - 1]
+dx = [1, -1, 1, -1, 0, 1, 0, -1]
+oh()
