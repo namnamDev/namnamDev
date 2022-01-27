@@ -1,14 +1,16 @@
-li = list(map(int,input().split()))
-baslist = []
-for i in li:
-    bas = []
-    temp = i
-    lev = 1
-    while temp != 1:
-        if not temp%lev:
-            bas+=[lev]
-            temp = temp//lev
-        print(temp)
-        lev+=1
-    baslist.append(bas)
-print(baslist)
+import sys
+
+sys.stdin = open("Baekjoon1145.txt")
+arr = sorted(list(map(int, input().split())))
+an = 0
+i = 1
+while not an:
+    cnt = 0
+    for ii in range(5):
+        if not i % arr[ii]:
+            cnt += 1
+    if cnt >= 3:
+        an = i
+        break
+    i += 1
+print(an)
