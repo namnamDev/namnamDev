@@ -3,16 +3,14 @@ import sys
 sys.stdin = open("Baekjoon1240.txt")
 
 
-def dfs(idx, cnt):
+def dfs(idx):
     if idx == end:
-        global an
-        an.append(cnt)
         return
     nowList = tree[idx]
     for now in nowList:
         if not vi[now[0]]:
-            vi[now[0]] = 1
-            dfs(now[0], cnt + now[1])
+            vi[now[0]] = vi[idx] + now[1]
+            dfs(now[0])
 
 
 N, W = map(int, input().split())
@@ -22,7 +20,6 @@ for node in range(N - 1):
     tree[y].append([x, c])
     tree[x].append([y, c])
 wList = []
-an = []
 for w in range(W):
     wList.append(list(map(int, input().split())))
 for wl in wList:
@@ -30,6 +27,5 @@ for wl in wList:
     start = wl[0]
     end = wl[1]
     vi[start] = 1
-    dfs(start, 0)
-for i in an:
-    print(i)
+    dfs(start)
+    print(vi[end] - 1)

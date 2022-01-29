@@ -1,25 +1,14 @@
 import sys
 
 sys.stdin = open("Baekjoon2225.txt")
-
-
-def cho(paArr):
-    if sum(paArr) > N:
-        return
-    if len(paArr) == K:
-        if sum(paArr) == N:
-            global a
-            print(paArr)
-            a += 1
-        return
-    for i in range(N + 1):
-        cho(paArr + [i])
-
-
 N, K = map(int, input().split())
-a = 0
-cho([])
-print(a)
+dp = [[0] * N for _ in range(K)]
+dp[0] = [1] * N
+for y in range(1, K):
+    dp[y][0] = (dp[y - 1][0] + 1) % 1000000000
+    for x in range(1, N):
+        dp[y][x] = (dp[y - 1][x] + dp[y][x - 1]) % 1000000000
+print(dp[-1][-1])
 
 # 10 1 - 1
 # 10 2 - 11    10 1
@@ -35,7 +24,7 @@ print(a)
 #  K  1 [1 1 1 1]
 #     2 [2 3 4 5]
 #     3 [3 6 10 15]
-#     4 [4 10 20]
+#     4 [4 10 20 35]
 # 4f[2] 4f[1]
 # Nf[K] = sum(range(N)f[K-1])
 # 4 1   -1
