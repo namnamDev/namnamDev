@@ -51,10 +51,7 @@ for chOne in choList:
             wy = dy[d] + now[0]
             wx = dx[d] + now[1]
             if 0 <= wy < N and 0 <= wx < N and not vi[wy][wx]:
-                if board[wy][wx] == 2:
-                    vi[wy][wx] = vi[now[0]][now[1]]
-                    Q.append([wy, wx])
-                elif not board[wy][wx]:
+                if board[wy][wx] != 1:
                     vi[wy][wx] = vi[now[0]][now[1]] + 1
                     Q.append([wy, wx])
 
