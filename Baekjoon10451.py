@@ -1,43 +1,24 @@
 import sys
 
-sys.stdin = open('Baekjoon10866.txt')
-from collections import deque
+sys.stdin = open('Baekjoon10451.txt')
 
-N = int(input())
-Q = deque([])
-an = ""
-for _ in range(N):
-    t = input().split()
-    a = t[0]
-    if a == "push_back":
-        Q.append(t[1])
-    elif a == "push_front":
-        Q.appendleft(t[1])
-    elif a == "front":
-        if Q:
-            an += str(Q[0]) + "\n"
-        else:
-            an += "-1\n"
-    elif a == "back":
-        if Q:
-            an += str(Q[-1]) + "\n"
-        else:
-            an += "-1\n"
-    elif a == "size":
-        an += str(len(Q)) + "\n"
-    elif a == "empty":
-        if len(Q):
-            an += "0\n"
-        else:
-            an += "1\n"
-    elif a == "pop_back":
-        if Q:
-            an += str(Q.pop()) + "\n"
-        else:
-            an += "-1\n"
-    elif a == "pop_front":
-        if Q:
-            an += str(Q.popleft()) + "\n"
-        else:
-            an += "-1\n"
-print(an)
+for _ in range(int(input())):
+    a = int(input())
+    arr = list(map(int, input().split()))
+    an = 0
+    vi = [0] * a
+    aas = []
+    for i in range(a):
+        if not vi[i]:
+            temp = [i]
+            vi[i] = 1
+            Q = [arr[i]]
+            while Q:
+                n = Q.pop()
+                if not vi[n - 1]:
+                    vi[n - 1] = 1
+                    Q.append(arr[n - 1])
+                    temp.append(arr[n - 1])
+            if len(temp):
+                aas.append(temp)
+    print(len(aas))
