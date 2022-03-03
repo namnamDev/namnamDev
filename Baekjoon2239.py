@@ -1,32 +1,42 @@
 import sys
+from pathlib import Path
 
-sys.stdin = open("Baekjoon1003.txt")
-
-dp = [[0] * 2 for _ in range(41)]
-dp[0] = [1, 0]
-dp[1] = [0, 1]
+sys.stdin = open(Path(__file__).stem + ".txt")
 
 
-def fibo(n):
-    if n <= 1:
-        return dp[n]
+def ga(y, x):
+    tA = board[y].copy()
+    vi = [0] * 9
+    for i in range(9):
+        vi[tA[i] - 1] += 1
+    tc = vi.count(0)
 
-    if not dp[n][0] and not dp[n][1]:
-        a1 = fibo(n - 1)
-        a2 = fibo(n - 2)
-        dp[n] = [a1[0] + a2[0], a1[1] + a2[1]]
-    return dp[n]
+    if tc > 1 or tc == 0:
+        return False
+    elif tc == 1:
+        board[y][x] = vi.index(0) + 1
+        return True
 
 
-for tc in range(int(input())):
-    n = int(input())
-    fibo(n)
-    print(*dp[n])
-# for ii in range(2, 41):
-#     a = False
-#     b = False
-#     if dp0[ii] == dp0[ii - 1] + dp0[ii - 2]:
-#         a = True
-#     if dp1[ii] == dp1[ii - 1] + dp1[ii - 2]:
-#         b = True
-#     print(a, b)
+def se(y, x):
+    tA = []
+    vi = [0] * 9
+    for i in range(9):
+        tA.append(board[i][x])
+        vi[board[i][x]] += 1
+    tc = vi.count(0)
+
+    if tc > 1 or tc == 0:
+        return False
+    elif tc == 1:
+        board[y][x] = vi.index(0) + 1
+        return True
+
+
+def sa(y, x):
+    return
+
+
+board = [list(map(int, input())) for _ in range(9)]
+# for i in board:
+#     print(i)
