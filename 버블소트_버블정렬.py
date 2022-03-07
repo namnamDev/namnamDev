@@ -25,5 +25,5 @@ def selection_sort(arr):
 
 
 print(arr)
-selection_sort(arr)
+# selection_sort(arr)
 print(arr)
