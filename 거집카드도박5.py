@@ -32,4 +32,4 @@ for C in range(1, maxCard):
             else:
                 mid += 1
         # print(nowIhave, cnt)
-        print("cnt :", C, "Hope : ", H, "result :", lose, win)
+        print("cnt :", C, "Hope : ", H, "result :", lose / 10, win / 10)

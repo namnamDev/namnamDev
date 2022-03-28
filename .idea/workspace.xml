@@ -5,34 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b7276b-c7ed-4021-a2ae-dcf148d1001b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon11054.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11054.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11066.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11066.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11279.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11279.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11437.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11437.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11657.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon11657.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1238.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1238.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon14442.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon14442.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1520.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon1520.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon16234.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon16234.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon16946.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon17144.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon17144.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준코테대회1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준코테대회2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준코테대회2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준코테대회E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준코테대회E.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon10844.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon1262.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon1262.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon1541.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon1541.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon1912.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon1912.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon1967.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon1967.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon2072.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon2072.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon2447.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon2447.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon4948.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon4948.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon16946.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon16946.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon10844.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon10844.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon14442.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon14442.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon14442.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon14442.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon2156.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon2156.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon2293.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon2293.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/거집카드도박5.py" beforeDir="false" afterPath="$PROJECT_DIR$/거집카드도박5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,37 +39,38 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="TXT" value="1" />
-          <entry key="py" value="122" />
-          <entry key="txt" value="86" />
+          <entry key="py" value="143" />
+          <entry key="txt" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="87" />
-          <entry key="Python" value="122" />
+          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="Python" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="38721" />
-          <entry key="txt" value="917" />
+          <entry key="py" value="42987" />
+          <entry key="txt" value="937" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="927" />
-          <entry key="Python" value="38721" />
+          <entry key="PLAIN_TEXT" value="947" />
+          <entry key="Python" value="42987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="17" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="20" />
           <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
     </session>
@@ -86,39 +81,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/백준코테대회2.py">
+        <entry file="file://$PROJECT_DIR$/Baekjoon4948.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="328">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon1912.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon1912.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="8" column="18" selection-start-line="3" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/백준코테대회E.py">
+        <entry file="file://$PROJECT_DIR$/Baekjoon1541.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="84">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/백준코테대회E.txt">
+        <entry file="file://$PROJECT_DIR$/Baekjoon1541.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/백준코테대회2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Baekjoon1550.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,10 +155,10 @@
       <find>now 4</find>
       <find>9</find>
       <find>fin</find>
-      <find>27</find>
       <find>print</find>
       <find>be</find>
       <find>-2</find>
+      <find>27</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,25 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Baekjoon1654.txt" />
-        <option value="$PROJECT_DIR$/Baekjoon1654.py" />
-        <option value="$PROJECT_DIR$/Baekjoon2759.py" />
-        <option value="$PROJECT_DIR$/Baekjoon2775.txt" />
-        <option value="$PROJECT_DIR$/Baekjoon2775.py" />
-        <option value="$PROJECT_DIR$/머지소트_병합정렬.txt" />
-        <option value="$PROJECT_DIR$/머지소트_병합정렬.py" />
-        <option value="$PROJECT_DIR$/Baekjoon1614.py" />
-        <option value="$PROJECT_DIR$/Baekjoon1620.txt" />
-        <option value="$PROJECT_DIR$/Baekjoon1620.py" />
-        <option value="$PROJECT_DIR$/Baekjoon1764.txt" />
-        <option value="$PROJECT_DIR$/Baekjoon1764.py" />
-        <option value="$PROJECT_DIR$/Baekjoon1874.py" />
-        <option value="$PROJECT_DIR$/Baekjoon12852.txt" />
-        <option value="$PROJECT_DIR$/Baekjoon12852.py" />
-        <option value="$PROJECT_DIR$/버블소트_버블정렬.py" />
-        <option value="$PROJECT_DIR$/Baekjoon1916.txt" />
-        <option value="$PROJECT_DIR$/Baekjoon1916.py" />
-        <option value="$PROJECT_DIR$/Baekjoon11049.txt" />
         <option value="$PROJECT_DIR$/Baekjoon11049.py" />
         <option value="$PROJECT_DIR$/Baekjoon12100.txt" />
         <option value="$PROJECT_DIR$/Baekjoon12100.py" />
@@ -195,8 +185,6 @@
         <option value="$PROJECT_DIR$/Baekjoon11657.py" />
         <option value="$PROJECT_DIR$/Baekjoon17144.py" />
         <option value="$PROJECT_DIR$/Baekjoon17144.txt" />
-        <option value="$PROJECT_DIR$/Baekjoon14442.py" />
-        <option value="$PROJECT_DIR$/Baekjoon14442.txt" />
         <option value="$PROJECT_DIR$/Baekjoon9251.py" />
         <option value="$PROJECT_DIR$/Baekjoon16234.py" />
         <option value="$PROJECT_DIR$/Baekjoon16234.txt" />
@@ -209,14 +197,35 @@
         <option value="$PROJECT_DIR$/백준코테대회2.py" />
         <option value="$PROJECT_DIR$/백준코테대회E.txt" />
         <option value="$PROJECT_DIR$/백준코테대회E.py" />
+        <option value="$PROJECT_DIR$/Baekjoon2156.py" />
+        <option value="$PROJECT_DIR$/Baekjoon2447.py" />
+        <option value="$PROJECT_DIR$/Baekjoon2447.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon1262.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon1262.py" />
+        <option value="$PROJECT_DIR$/Baekjoon2072.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon2072.py" />
+        <option value="$PROJECT_DIR$/Baekjoon1967.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon1967.py" />
+        <option value="$PROJECT_DIR$/Baekjoon14442.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon14442.py" />
+        <option value="$PROJECT_DIR$/Baekjoon2293.py" />
+        <option value="$PROJECT_DIR$/Baekjoon10844.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon10844.py" />
+        <option value="$PROJECT_DIR$/거집카드도박5.py" />
+        <option value="$PROJECT_DIR$/Baekjoon4948.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon4948.py" />
+        <option value="$PROJECT_DIR$/Baekjoon1912.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon1912.py" />
+        <option value="$PROJECT_DIR$/Baekjoon1541.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon1541.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="61" />
-    <option name="y" value="217" />
-    <option name="width" value="2249" />
-    <option name="height" value="1381" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="781" />
+    <option name="y" value="162" />
+    <option name="width" value="2580" />
+    <option name="height" value="1148" />
   </component>
   <component name="ProjectId" id="24SDMbUkqN0ZaSh9nIkzkUVeM4F" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -252,51 +261,6 @@
               <item name="algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon1021.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon1213.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon1941.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon3024.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon4673.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon10026.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon11279.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon16926.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Baekjoon18290.py" type="8704e2dd:PyFileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -310,7 +274,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/user01/ssafy5/TIL/python/algo/Baekjoon10816.txt" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codingTest" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -330,8 +294,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.백준코테대회2">
-    <configuration name="백준코테대회1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Baekjoon1912">
+    <configuration name="거집카드도박3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,7 +307,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준코테대회1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/거집카드도박3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,7 +316,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="백준코테대회2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="거집카드도박4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,7 +328,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준코테대회2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/거집카드도박4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,7 +337,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Baekjoon11437" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="거집카드도박5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,7 +349,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon11437.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/거집카드도박5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -394,7 +358,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Baekjoon16234" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Baekjoon1912" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,7 +370,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon16234.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon1912.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -415,7 +379,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Baekjoon16946" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Baekjoon4948" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,7 +391,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon16946.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon4948.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,19 +401,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Baekjoon16234" />
-      <item itemvalue="Python.Baekjoon16946" />
-      <item itemvalue="Python.Baekjoon11437" />
-      <item itemvalue="Python.백준코테대회1" />
-      <item itemvalue="Python.백준코테대회2" />
+      <item itemvalue="Python.거집카드도박3" />
+      <item itemvalue="Python.거집카드도박4" />
+      <item itemvalue="Python.거집카드도박5" />
+      <item itemvalue="Python.Baekjoon4948" />
+      <item itemvalue="Python.Baekjoon1912" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.백준코테대회2" />
-        <item itemvalue="Python.백준코테대회1" />
-        <item itemvalue="Python.Baekjoon11437" />
-        <item itemvalue="Python.Baekjoon16946" />
-        <item itemvalue="Python.Baekjoon16234" />
+        <item itemvalue="Python.Baekjoon1912" />
+        <item itemvalue="Python.Baekjoon4948" />
+        <item itemvalue="Python.거집카드도박5" />
+        <item itemvalue="Python.거집카드도박4" />
+        <item itemvalue="Python.거집카드도박3" />
       </list>
     </recent_temporary>
   </component>
@@ -477,21 +441,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="217" width="2249" height="1381" extended-state="0" />
+    <frame x="781" y="162" width="2580" height="1148" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5904762" visible="true" weight="0.14699231" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5904762" visible="true" weight="0.12785208" />
       <window_info id="Structure" order="1" sideWeight="0.2761628" side_tool="true" weight="0.16002701" />
       <window_info id="Favorites" order="2" sideWeight="0.40952381" side_tool="true" weight="0.16903073" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32509506" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8620534" visible="true" weight="0.42451298" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8603462" visible="true" weight="0.36636636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48489666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49583563" weight="0.30563003" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.13794664" side_tool="true" visible="true" weight="0.42451298" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49478847" weight="0.31412336" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.13965382" side_tool="true" visible="true" weight="0.36636636" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49971768" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49971768" weight="0.3290938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -521,204 +485,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baekjoon1620.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1654.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1654.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1764.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1764.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1874.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1874.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon12852.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon12852.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1916.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1916.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11049.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11049.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/머지소트_병합정렬.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/버블소트_버블정렬.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon12100.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/힙정렬.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1052.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11279.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11279.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11054.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11054.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1238.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1238.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11066.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11066.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1520.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon1520.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon11657.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <marker date="1647415908730" expanded="true" signature="388:866" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjoon11657.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -753,20 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon14442.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon14442.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjoon9251.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -788,10 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1081">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <marker date="1646621676454" expanded="true" signature="242:2267" ph="..." />
-            <marker date="1646621676454" expanded="true" signature="1274:2267" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,44 +575,206 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <marker date="1647661904325" expanded="true" signature="69:159" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준코테대회1.py">
+    <entry file="file://$PROJECT_DIR$/백준코테대회1.py" />
+    <entry file="file://$PROJECT_DIR$/백준코테대회2.txt" />
+    <entry file="file://$PROJECT_DIR$/백준코테대회2.py" />
+    <entry file="file://$PROJECT_DIR$/백준코테대회E.txt" />
+    <entry file="file://$PROJECT_DIR$/백준코테대회E.py" />
+    <entry file="file://$PROJECT_DIR$/Baekjoon2156.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon2156.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="322">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준코테대회2.txt">
+    <entry file="file://$PROJECT_DIR$/Baekjoon2447.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준코테대회2.py">
+    <entry file="file://$PROJECT_DIR$/Baekjoon2447.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1059.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1262.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1262.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon2072.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon2036.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon2072.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1967.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1967.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" selection-start-line="3" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon14442.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon14442.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준코테대회E.txt">
+    <entry file="file://$PROJECT_DIR$/Baekjoon2293.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon2293.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="410">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준코테대회E.py">
+    <entry file="file://$PROJECT_DIR$/codingTest/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Baekjoon10844.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="551">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon10844.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/거집카드도박.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/거집카드도박2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/거집카드도박3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/거집카드도박5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/거집카드도박4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon4948.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon4948.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1912.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1912.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="8" column="18" selection-start-line="3" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1550.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1541.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon1541.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>

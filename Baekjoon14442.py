@@ -22,7 +22,8 @@ while Q:
             vi[wy][wx] = 1 + vi[y][x]
             if t <= K:
                 Q.append([wy, wx, t])
-
+for i in vi:
+    print(i)
 if not vi[-1][-1]:
     vi[-1][-1] = -1
 print(vi[-1][-1])
