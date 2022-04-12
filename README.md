@@ -30,6 +30,8 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=Gradle&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/JPA-6DB33F?style=flat-square&logo= &logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Querydsl-40AEF0?style=flat-square&logo= &logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Mybatis-F40D12F?style=flat-square&logo= &logoColor=white"/></a>
 
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/></a>
