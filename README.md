@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <div align="center">
-안녕하세요~! 제너럴리스트가 되고픈 초보 개발자입니다 ^^
+Hi! I'm NamGeunHyeong ✋
 
   <hr>
   
