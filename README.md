@@ -15,6 +15,7 @@ Here are some ideas to get you started:
 안녕하세요~! 제너럴리스트가 되고픈 초보 개발자입니다 ^^
 
 Tech Stack
+<img src="https://img.shields.io/badge/SpingBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Sping-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/></a>
