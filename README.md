@@ -15,6 +15,10 @@ Here are some ideas to get you started:
 <div align="center">
 안녕하세요~! 제너럴리스트가 되고픈 초보 개발자입니다 ^^
 
+  
+  
+  
+
 ​:coffee:Tech Stack​:coffee:
 
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/></a>
