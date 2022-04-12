@@ -31,7 +31,7 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/JPA-6DB33F?style=flat-square&logo= &logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Querydsl-40AEF0?style=flat-square&logo= &logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Mybatis-F40D12F?style=flat-square&logo= &logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Mybatis-F40D12?style=flat-square&logo= &logoColor=white"/></a>
 
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/></a>
@@ -41,6 +41,8 @@ Here are some ideas to get you started:
 
 
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=AmazonAWS&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white"/></a>
