@@ -15,8 +15,8 @@ Here are some ideas to get you started:
 안녕하세요~! 제너럴리스트가 되고픈 초보 개발자입니다 ^^
 
 Tech Stack
-<img src="https://img.shields.io/badge/adobephotoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white"/></a>&nbsp
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
+<img src="https://img.shields.io/badge/AdobePhotoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=namnamDev&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
