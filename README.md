@@ -16,6 +16,8 @@ Here are some ideas to get you started:
 안녕하세요~! 제너럴리스트가 되고픈 초보 개발자입니다 ^^
 
 ​:coffee:Tech Stack​:coffee:
+</center>
+
 <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/></a>
