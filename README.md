@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 
 Tech Stack
 
-
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat-square&logo=SpringSecurity&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/SpingBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Sping-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
