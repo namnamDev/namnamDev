@@ -12,11 +12,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<center>
+<div align="center">
 안녕하세요~! 제너럴리스트가 되고픈 초보 개발자입니다 ^^
 
 ​:coffee:Tech Stack​:coffee:
-</center>
 
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Sping-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
@@ -40,4 +39,4 @@ Here are some ideas to get you started:
 
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FnamnamDev&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-</center>
+</div>
