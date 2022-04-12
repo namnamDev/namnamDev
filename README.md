@@ -16,6 +16,8 @@ Here are some ideas to get you started:
 
 Tech Stack
 
+<img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat-square&logo=SpringSecurity&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/SpingBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/></a>
