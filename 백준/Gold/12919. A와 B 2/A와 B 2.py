@@ -8,7 +8,7 @@ Q = deque([end])
 an = 0
 used = {}
 while Q:
-    now = Q.pop()
+    now = Q.popleft()
     if now == start:
         an = 1
         break
