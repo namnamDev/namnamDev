@@ -1,0 +1,20 @@
+def solution(id_list, report, k):
+    reported = {}
+    id_idx = {}
+    for i in range(len(id_list)):
+        t_id = id_list[i]
+        reported[t_id] = []
+        id_idx[t_id] = i
+        
+    for se in report:
+        s,e = se.split()
+        reported[e].append(s)
+        
+    answer = [0]*len(id_list)
+    for i in reported:
+        reported[i] = list(set(reported[i]))
+        if len(reported[i]) >= k:
+            for t in reported[i]:
+                answer[id_idx.get(t)] += 1
+            
+    return answer
