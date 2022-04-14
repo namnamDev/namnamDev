@@ -1,0 +1,23 @@
+def solution(nums):
+    answer = 0
+    s = len(nums)
+    arr = []
+    def lec(paArr,idx):
+        if len(paArr) == 3:
+            arr.append(sum(paArr))
+            return
+        for i in range(idx,s):
+            lec(paArr+[nums[i]],i+1)
+    lec([],0)
+    vi= [0]*3001
+    # vi[0] = vi[1] = 1
+    for n in range(2,1500):
+        if not vi[n]:
+            ii = n*2
+            while ii <= 3000:
+                vi[ii] = 1
+                ii += n
+    for num in arr:
+        if not vi[num]:
+            answer += 1
+    return answer
