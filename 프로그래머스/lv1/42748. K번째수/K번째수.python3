@@ -1,0 +1,10 @@
+def solution(array, commands):
+    answer = []
+    for i in range(len(commands)):
+        tempCom = commands[i]
+        i,j,k = map(int,tempCom)
+        tempArr = array[i-1:j]
+        tempArr.sort()
+        tempRes = tempArr[k-1]
+        answer += [tempRes] 
+    return answer
