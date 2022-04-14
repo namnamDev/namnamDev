@@ -12,8 +12,6 @@ class Solution {
                 temp.add(array[j]);
             }
             Collections.sort(temp);
-            // temp.sort();
-            // System.out.println(temp[oneLine[2]-1]);
             answer[i]= temp.get(oneLine[2]-1);
         }
         return answer;
