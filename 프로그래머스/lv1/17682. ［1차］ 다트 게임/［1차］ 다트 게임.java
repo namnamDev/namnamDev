@@ -22,7 +22,6 @@ class Solution {
                 }
                 if (tempScore != null){
                     scores.add(tempScore);
-                    tempScore = null;
                     score = "";
                     continue;
                 }
