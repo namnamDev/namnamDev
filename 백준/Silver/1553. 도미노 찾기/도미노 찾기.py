@@ -4,18 +4,6 @@ board = [["7"] * 7 for _ in range(8)]
 visit = [0] * 28
 
 
-def turn(dom):
-    if len(dom) == 1:
-        fir = dom[0][0]
-        sec = dom[0][1]
-        temp = [[sec], [fir]]
-    else:
-        fir = dom[0][0]
-        sec = dom[1][0]
-        temp = [[fir, sec]]
-    return temp
-
-
 def lec(pidx):
     if pidx == 28:
         global an
