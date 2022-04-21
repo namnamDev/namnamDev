@@ -1,0 +1,29 @@
+def solution(s):
+    answer = 0
+    stack = []
+    left = ["(","[","{"]
+    right = [")","]","}"]
+    size = len(s)
+    s += s
+    for cnt in range(size):
+        tempS = s[cnt:cnt+size]
+        check = True
+        for one in tempS:
+            if one in left:
+                stack.append(one)
+            else:
+                if stack:
+                    last =stack[-1]
+                    if left.index(last) == right.index(one):
+                        stack.pop()
+                    else:
+                        check = False
+                        break
+                else:
+                    check = False
+                    break
+        if stack:
+            check = False
+        if check:
+            answer +=1 
+    return answer
