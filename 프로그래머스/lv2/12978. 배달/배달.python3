@@ -1,0 +1,24 @@
+from collections import deque
+def solution(N, road, K):
+    answer = 0
+    tree = [[] for _ in range(N+1)]
+    INF = 0
+    for s,e,v in road:
+        tree[s].append([e,v])
+        tree[e].append([s,v])
+        INF += v
+    vi = [INF]*(N+1)
+    vi[1] =vi[0]= 0
+    Q= deque([1])
+    while Q:
+        n = Q.popleft()
+        ntree =  tree[n]
+        for e,v in ntree:
+            if vi[e] > vi[n] + v and vi[n] + v<= K:
+                Q.append(e)
+                vi[e] = vi[n]+v
+
+    for i in vi:
+        if i <= K:
+            answer+=1
+    return answer-1
