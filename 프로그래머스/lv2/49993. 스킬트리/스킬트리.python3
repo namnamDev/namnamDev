@@ -1,0 +1,21 @@
+def solution(skill, skill_trees):
+    skillSize = len(skill)
+    size = len(skill_trees)
+    answer = size
+    dic = {}
+    for i in range(skillSize):
+        dic[skill[i]] = i+1
+    # for i in skill:
+    #     dic[i] = 1
+    # cutList = []
+    
+    for tree in skill_trees:
+        temp = [0]
+        for one in tree:
+            if dic.get(one):
+                if  dic[one] - temp[-1] == 1:
+                    temp.append(dic[one])
+                else:
+                    answer -= 1
+                    break
+    return answer
