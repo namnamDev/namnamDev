@@ -56,11 +56,14 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white"/></a>
 
 
-## ​:star:My Project​:star
+## ​:star:My Project​:star:
 Click to go to repository
-- [SSAFY 팀빌딩 시스템 : ADD SSAFY](https://github.com/namnamDev/ADDSSAFY)
-- [K-POP NFT 마켓 플레이스 : The Fan](https://github.com/namnamDev/TheFan) 
-- [알고리즘 문제풀이 SNS : ALZALAL](https://github.com/namnamDev/ALZALAL)
+
+[SSAFY 팀빌딩 시스템 : ADD SSAFY](https://github.com/namnamDev/ADDSSAFY)
+
+[K-POP NFT 마켓 플레이스 : The Fan](https://github.com/namnamDev/TheFan) 
+
+[알고리즘 문제풀이 SNS : ALZALAL](https://github.com/namnamDev/ALZALAL)
 </div>
 <div align="right">
   
