@@ -1,0 +1,26 @@
+def solution(land):
+    answer = 0
+    dp = [land[0]]
+    
+    for idxf in range(1,len(land)):
+        arr =land[idxf]
+        firMaxIdx = 0
+        for idx in range(4):
+            if dp[-1][firMaxIdx] < dp[-1][idx]:
+                firMaxIdx = idx
+                
+        secMaxIdx = 0
+        if firMaxIdx  == secMaxIdx:
+            secMaxIdx = 1
+        for idx in range(4):
+            if idx != firMaxIdx:
+                if dp[-1][secMaxIdx] < dp[-1][idx]:
+                    secMaxIdx = idx
+        temp = []        
+        for idx in range(4):
+            if idx != firMaxIdx:
+                temp.append(dp[-1][firMaxIdx]+arr[idx])
+            else:
+                temp.append(dp[-1][secMaxIdx]+arr[idx])
+        dp.append(temp)
+    return max(dp[-1])
