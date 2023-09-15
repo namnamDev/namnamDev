@@ -16,7 +16,6 @@ Here are some ideas to get you started:
   
 ## Hi! I'm NamGeunHyeong ✋
   
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=namnamDev&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 [![https://solved.ac/profile/sonam777](http://mazassumnida.wtf/api/v2/generate_badge?boj=sonam777)](https://solved.ac/profile/sonam777)
   
@@ -46,7 +45,6 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=AmazonAWS&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=NGINX&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/></a>
